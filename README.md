@@ -25,3 +25,5 @@ There is a setup process to getting this python code working with your setup.
 4.)	There is one more thing to do to register the chat bot for IRC access.
     a.	Go to https://twitchapps.com/tmi/ and register the bot account.
     b.	Copy the code and enter into the cfg.py variable- PASS
+    
+5.) Change social media commands to fit your needs. This is found in the bot.py file.

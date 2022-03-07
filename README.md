@@ -4,6 +4,7 @@ The commands for this bot can be seen here - https://chillchewie.com/commands
 
 This bot primarily uses the Twitch API and Riot API for the commands to pull information about the streamer and summoners. 
 There is a setup process to getting this python code working with your setup.
+
 1.)	Create a twitch account for your bot – exp. ChillChewie_bot
 
 2.)	You need to register the application with the Twitch API login under your bot account - https://dev.twitch.tv/console/apps

@@ -5,14 +5,14 @@ The commands for this bot can be seen here - https://chillchewie.com/commands
 This bot primarily uses the Twitch API and Riot API for the commands to pull information about the streamer and summoners. 
 There is a setup process to getting this python code working with your setup.
 
-1.)	Create a twitch account for your bot – exp. ChillChewie_bot
+1.)	Create a twitch account for your bot – e.g. ChillChewie_bot
 
 2.)	You need to register the application with the Twitch API login under your bot account - https://dev.twitch.tv/console/apps
     a.	Create an application
     b.	Copy clientid and the client secret
     c.	Add them both to the cfg.py file under the variables clientid and clientsecret
     d.	Enter this url replacing the XXX you’re your clientid -https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=XXX &redirect_uri=http://localhost
-    e.	Authorize with your bot channel. The page will redirect and give you an accesstoken. Exp. - http://localhost/#access_token=XXXX&scope=&token_type=bearer
+    e.	Authorize with your bot channel. The page will redirect and give you an accesstoken. e.g. - http://localhost/#access_token=XXXX&scope=&token_type=bearer
     f.	Add the access token to the cfg.py file in the variable accesstoken
 
 3.)	You need a RIOT API login - https://developer.riotgames.com
